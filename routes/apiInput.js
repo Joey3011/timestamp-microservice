@@ -31,4 +31,5 @@ router.get('/api/:date?', (req, res) => {
     res.json(responseQuery)
 })
 
+
 module.exports = router
