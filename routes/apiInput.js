@@ -25,7 +25,7 @@ router.get('/api/:date?', (req, res) => {
         }
     }
 
-    if(!responseQuery['unix']  || !responseQuery['utc']){
+    if(!responseQuery['unix'] || !responseQuery['utc']){
         res.json({ error : "Invalid Date" })
     }
     res.json(responseQuery)
