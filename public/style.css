@@ -1,41 +1,20 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body{
-    background-color: #2574A9;
-    color: whitesmoke;
-    text-align: center;
-    font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  min-height: 100vh;
+  background-color: #000;
+  color: whitesmoke;
+  place-content: center;
+  text-align: center;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 5rem;
 }
 
-.container {
-	padding: 0;
-	margin-top: 40px;
-}
-
-h3 {
-  margin-top: 30px;
-}
-
-hr {
-	margin: 25px;
-}
-
-.footer {
-	margin-top: 40px;
-}
-
-code {
-  font-family: monospace;
-  padding: 2px;
-  color: #f1f1f1;
-}
-
-ul {
-	list-style-type: none;
-}
-
-li {
-  margin-bottom: 0.5em;
-}
-
-a {
-	color: #f1f1f1;
+h1{
+  padding: 2rem 1rem;
 }
